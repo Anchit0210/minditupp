@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag9_MoodTracker"
+    android:background="@drawable/bgs">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_baseline_add_circle_24" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="MindItUp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="60dp"/>
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Check your daily mood"
+            android:layout_below="@+id/a"
+            android:layout_marginStart="60dp"/>
+
+        <RelativeLayout
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/b"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="#1234ac" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="do whaterver u want"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/graph"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/d"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/c"
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:background="#234cba"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/blue_rounded_corners"
+            android:layout_below="@+id/c"
+            android:layout_toEndOf="@+id/d"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/l1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_add_circle_24"
+                android:background="@drawable/rounded_cards"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log My Mood"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/diary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/d"
+            android:background="@drawable/blue_rounded_corners"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_cards"
+                android:src="@drawable/ic_baseline_add_circle_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:text="Log My Journal"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diary"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/d"
+            android:background="@drawable/blue_rounded_corners"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_cards"
+                android:src="@drawable/ic_baseline_add_circle_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:text="Assess Emotional Health"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/diary1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="11dp"
+            android:text="diary" />
+    </RelativeLayout>
+
+
+</FrameLayout>

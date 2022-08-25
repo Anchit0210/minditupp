@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act5_Yoga">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="388dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="44dp"
+                android:gravity="center"
+                android:text="YOGA"
+                android:textColor="#0B60F3"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="269dp"
+                android:layout_height="154dp"
+                android:layout_marginBottom="32dp"
+                app:layout_constraintBottom_toTopOf="@+id/Edittext"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/halasana"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/Edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/abeezee"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="Benefits:\n1)The Halasana is a proven remedy to help relieve anxiety and stress-related problems. When performed with breathing exercises, the plow pose helps provide relaxation to the mind. This asana relieves the stress-induced mental barriers, thereby promoting the overall well-being of an individual.\n2) The plow pose is an effective remedy for various stomach disorders. Junk food and improper eating lifestyle lead to digestive system upsets that cause constipation, indigestion, and many more issues. The Halasana strengthens the colon and stimulates the digestive system through gentle massage. It results in proper digestion and absorption of the food ingested.\n\nSteps to perform Halasan:\nThe steps to perform Halasana are simple and easy to execute. These steps are-\n1)Lie on your back with arms resting on the floor.\n2)Inhale and lift the leg by 90 degrees.\n3)Slowly push your legs behind the head as you exhale. Remember to keep the shoulders and elbow as close as possible.Hold the pose for 20 minutes.\n4)Exhale and slowly return to the initial pose.\n"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <Button
+                android:id="@+id/nextbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="160dp"
+                android:text="NEXT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.556"
+                app:layout_constraintStart_toEndOf="@+id/prevbutton" />
+
+            <Button
+                android:id="@+id/prevbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="68dp"
+                android:layout_marginBottom="160dp"
+                android:text="Previous"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Edittext" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

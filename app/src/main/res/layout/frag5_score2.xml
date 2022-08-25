@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag5_score2"
+    android:background="@drawable/bgs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="35sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/result"
+            android:textColor="#1f78b0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="35sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/result"
+            android:textColor="#1f78b0"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/tohome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tohome" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

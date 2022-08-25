@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522367723835",
+    "project_id": "minditup-main",
+    "storage_bucket": "minditup-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522367723835:android:5b4279f90502e2bd236f1e",
+        "android_client_info": {
+          "package_name": "com.techtastic.minditup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522367723835-2q4vp4g5c0opksb0iqhuc4p2g4gkjamt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIUamuSIWrpDD-EeEUOOBbuY_5rfSBsDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522367723835-2q4vp4g5c0opksb0iqhuc4p2g4gkjamt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

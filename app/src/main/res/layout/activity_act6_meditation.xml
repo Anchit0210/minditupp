@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act6_Meditation">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="56dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/timere" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="134dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/timestartbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeresetbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/box"
+        android:text="START"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/timeresetbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="286dp"
+        android:background="@drawable/box"
+        android:text="RESTART"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="349dp"
+        android:layout_height="264dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/abeezee"
+        android:padding="10dp"
+        android:text="Steps Of meditation\n
+1 - Take a seat\n
+2 - Clode your eyes\n
+3 - Notice your body\n
+4 - Feel your breadth\n
+5 - Notice when your mind has wandered\n
+6 - Be kind to your Wandernes\n
+7 - Close with kindness\n"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
